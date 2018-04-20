@@ -32,13 +32,13 @@ You need to write unit tests to ensure that the majority of functions in the cal
 
 All of these functions should be tested thoroughly:
 
-  - calculator.add()
-  - calculator.subtract()
-  - calculator.multiply()
-  - calculator.divide()
-  - calculator.numberClick()
-  - calculator.operatorClick()
-  - calculator.clearClick()
+  - calculator.add() *
+  - calculator.subtract() *
+  - calculator.multiply() *
+  - calculator.divide() *
+  - calculator.numberClick()*
+  - calculator.operatorClick()*
+  - calculator.clearClick()*
 
 ### Integration/Acceptance Tests
 
@@ -55,6 +55,3 @@ What does the code do in exceptional circumstances?
 
   - If you divide by zero, what is the effect?
   - Can you write a test to describe what you'd prefer to happen, and then correct the code to make that test pass.
-
-
-//if divide by 0 dont want to crash 
